@@ -1,1 +1,89 @@
 
+/* ##### FREE JUMBO SHARE COUNTERS ####### */ 
+#MBTshares-wrap{margin:20px 0px;overflow:hidden; border-top: 1px dotted #eee;padding: 10px 0;border-bottom: 1px dotted #eee;} 
+#MBTshares{display:inline-block;overflow:hidden;text-align:left;white-space:nowrap;font-family:arial;font-size:11px;margin:0px 5px 0; line-height: 1.4em!important;} 
+#horiz{position:relative; padding:0; margin:0;} 
+#horiz #MBTshares{position:relative;top:-8px; padding-top:20px;} 
+#MBTshares a:hover{text-decoration:none!important;}
+
+/***Facebook***/ 
+.mbt-fb{background:transparent linear-gradient(#4C69BA,#3B55A0) repeat scroll 0 0;border:medium none;border-radius:2px;color:#FFF!important;cursor:pointer;font-weight:700;height:20px;line-height:20px;padding:0 6px;white-space:nowrap;text-shadow:0 -1px 0 #354C8C} 
+.mbt-fb:focus,.mbt-fb:hover,.mbt-fb:active{background:transparent linear-gradient(#5B7BD5,#4864B1) repeat scroll 0 0;border-color:#5874C3 #4961A8 #41599F;box-shadow:0 0 1px #607FD6 inset} 
+.mbt-fb i{padding:2px 2px 0 4px;font-size:11px;color:#3B5998;background:#fff;margin-right:4px;margin-top:3px} 
+.mbt-fb:hover, .mbt-fb:visited, .mbt-tw:hover,.mbt-tw:visited, .mbt-linkedin:hover ,.mbt-linkedin:visited{color:#fff!important;}
+/***Gplus, Pinit, Stumbleupon***/ 
+.mbt-gp{box-shadow:0 1px 0 rgba(0,0,0,0.05);background-color:#FFF;background-image:none;border-radius:2px;border:1px solid rgba(0,0,0,0.17);color:#262626!important;cursor:pointer;font-weight:700;height:20px;line-height:20px;padding:0 6px 0 4px;white-space:nowrap} 
+.mbt-gp:hover, .mbt-gp:visited{color:#262626!important;} 
+#MBTshares .pinit{background:#f9f9f9!important} 
+#MBTshares .stumb{background:#f0fafe!important;border:1px solid #cde3ea} 
+#MBTshares .stumb:hover{border:1px solid #b7d5df;box-shadow:0 1px 0 rgba(0,0,0,0.1)} 
+#MBTshares .stumb i{color:#eb4823!important;font-size:13px!important;margin-top:1px!important} 
+.mbt-gp:focus,.mbt-gp:hover,.mbt-gp:active{border:1px solid rgba(0,0,0,0.25);box-shadow:0 1px 0 rgba(0,0,0,0.1)} 
+.mbt-gp i{padding:2px 2px 0 0;font-size:11px;color:#DB4437;margin-right:2px;margin-top:3px} 
+.mbt-gp .fa-pinterest{padding:0 2px 0 0;font-size:14px} 
+#MBTshares .bufferimg{width:15px; margin-top:2px; padding:0 1px 0 0; }
+
+/***LinkedIn***/ 
+.mbt-linkedin{transition:background-color .218s ease 0s,border-color .218s ease 0s,box-shadow .218s ease 0;background-color:#0077B5;text-shadow:0 -1px #005887;border:medium none;border-radius:2px;border:1px solid #066094;color:#fff!important;cursor:pointer;font-weight:700;height:20px;line-height:20px;padding:0 2px 0 1px;white-space:nowrap} 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.mbt-linkedin{padding:0 5px 0 1px} 
+}
+.mbt-linkedin:focus,.mbt-linkedin:hover,.mbt-linkedin:active{border:1px solid #0369A0;background-color:#0369A0} 
+.mbt-linkedin i{padding:0;font-size:17px;color:#FFF;margin-right:0;position:relative;left:1px} 
+.mbt-linkedin .ibg{background:#0369A0 none repeat scroll 0 0;width:17px;display:inline-block;border-right:1px solid #006095;border-radius:2px;height:20px;padding:0 2px 0 1px;margin:0 2px 0 -1px}
+/**Twtter, Print, Whatsapp, viber**/ 
+.mbt-tw{position:relative;height:22px;padding:4px 8px 1px 4px;font-weight:700;color:#FFF!important;cursor:pointer;background-color:#1B95E0;border-radius:3px;box-sizing:border-box} 
+.mbt-tw:focus,.mbt-tw:hover,.mbt-tw:active{background-color:#0C7ABF} 
+.mbt-tw i{padding:0 0 0 1px;font-size:14px;color:#fff;margin-right:2px;margin-top:0} 
+.mbt-o{max-width:100%} 
+.mbt-o,.mbtcount-o,.mbt-fb,.mbt-gp,.mbt-linkedin,.mbt-tw,.label,#mbtcount{display:inline-block;vertical-align:top} 
+.label {margin-left: -1px !important;} 
+.mbtcount-o{position:relative;min-width:15px;height:17px;text-align:center;padding:1px 5px;margin-left:5px;background:#FFF none repeat scroll 0 0;border:1px solid #e7e7e7;border-radius:2px; } 
+#MBTshares .printme {background-color:#333;} 
+#MBTshares .printme:focus,#MBTshares .printme:hover,#MBTshares .printme:active{background-color:#000} 
+#MBTshares .whatsapp{background-color:#73D40B;} 
+#MBTshares .whatsapp i{font-size:15px!important;} 
+#MBTshares .whatsapp:focus,#MBTshares .whatsapp:hover,#MBTshares .whatsapp:active{background-color:#65BA09} 
+#MBTshares .viber{background-color:#7b519d;} 
+#MBTshares .viber:focus,#MBTshares .viber:hover,#MBTshares .viber:active{background-color:#8558aa} 
+#MBTshares .viberimg{width:13px; margin-top:0px; padding:0 3px 0 0; }
+#mbtcount{color:#666;white-space:nowrap;text-decoration:none;padding:2px 0 0} 
+#mbtcount:hover{text-decoration:none} 
+#MBTshares .arrow{height:0;left:-10px;position:relative;top:-15px;width:5px;z-index:2} 
+#MBTshares .ext{min-height:18px!important} 
+#MBTshares .arrow s,#MBTshares .arrow i{border-color:transparent #e7e7e7;border-style:solid;border-width:4px 5px 4px 0;display:block;position:relative;top:19px} 
+#MBTshares .arrow i{border-right-color:#FFF;left:2px;top:11px} 
+.share-btn{position:relative;display:inline-block} 
+.share-btn .h2{font-size:30px;font-weight:700;font-family:arial;color:#73D40B;height:31px; line-height: 1.4em;} 
+.share-btn .h4{font-size:12px;font-family:arial}
+/*#########Floating Counter Styles###########*/ 
+.mbt-vertical{max-width:60px!important;margin:0 0 0 -83px!important;border:1px solid #f3f3f3!important;padding:3px 6px 0!important;background:#fff; position: fixed;z-index:99999;bottom: 7%;float: left;border-right:0px solid #fff!important;} 
+.mbt-vertical #MBTshares{display:block;width:60px;margin:7px 0!important} 
+.tcount{margin:0 10px 0 0;text-align:center;min-width:60px;border-right:3px solid #73D40B;padding:0 15px 0 10px} 
+.mbt-vertical .tcount{border-right:0;padding:0;text-align:center;height:auto} 
+.tcount .h2{font-size:29px;padding-bottom:5px} 
+.tcount .h4,.mbt-vertical .tcount .h4{font-size:12px;padding-bottom:5px;border-radius:0} 
+.mbt-vertical .tcount .h4{border-bottom:3px solid #73D40B} 
+.mbt-vertical .mbt-o,.mbt-vertical .mbtcount-o,.mbt-vertical .mbt-fb,.mbt-vertical .mbt-gp,.mbt-vertical .mbt-tw,.mbt-vertical #mbtcount{display:block} 
+.mbt-vertical .mbtcount-o{margin-bottom:7px;margin-left:0;height:30px} 
+.mbt-vertical #mbtcount{padding:7px 0 0;font-size:15px;color:#666} 
+.arrow-v{bottom:-8px;height:7px;left:25px;position:absolute;width:0;z-index:2} 
+.arrow-v s,.arrow-v i{border-color:#e7e7e7 transparent transparent;border-style:solid;border-width:5px;display:block;position:relative} 
+.arrow-v i{border-top-color:#FFF;left:0;top:-12px}
+/*#########Vertical Counter Switch###########*/ 
+.switchoff{display:none} 
+.mbtswitch{padding:0 16px;margin:0 0 5px;display:block;max-width:60px;height:20px;cursor:pointer;background-color:#fff;border:1px solid #eee;border-radius:2px;outline:0 none;font:16px fontawesome;color:#ddd} 
+.mbtswitch:hover{color:#73D40B} 
+.mbtswitch i.active:after{content:'\f067';position:relative;left:7px;top:2px;font-style:normal} 
+.mbtswitch i.inactive:after{content:'\f068';position:relative;left:7px;top:2px;font-style:normal}
+
+/*#########Horizontal Counter Switch###########*/ 
+.switchoff2{display:inline-block;} 
+.mbtswitch2{padding:0 15px 0 3px;position:relative;top:-15px;margin:20px 0 0 3px;display:inline-block;max-width:30px;height:20px;cursor:pointer;background-color:#fff;border:1px solid #eee;border-radius:2px;outline:0 none;font:16px fontawesome;color:#ddd} 
+.mbtswitch2:hover{color:#73D40B} 
+.mbtswitch2 i.active:after{content:'\f067';position:relative;left:7px;top:2px;font-style:normal} 
+.mbtswitch2 i.inactive:after{content:'\f068';position:relative;left:7px;top:2px;font-style:normal} 
+@media only screen and (max-width:230px) { 
+.tcount{border-bottom: 2px solid #74D50C; border-right:none; min-width:100%;} 
+#horiz #MBTshares {width: 100%;} 
+}
