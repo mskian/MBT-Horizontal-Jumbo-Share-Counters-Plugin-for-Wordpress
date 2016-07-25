@@ -104,26 +104,12 @@ if (is_single()) {
 <span id="mbtcount" class="count anim"></span></span> 
 </div> 
 </div>
-
-<!-- VIBER --> 
-  <div id="MBTshares"> 
-    <div class="mbt-o"> 
-      <a class="mbt-tw viber" href="viber://forward?text='.get_the_title( $post->ID).' >> '.get_permalink( $post->ID).'"  rel="nofollow" target="_blank" title="Share on viber!"><img class="viberimg"       src=" https://2.bp.blogspot.com/-Q4pj1x7tFUA/VtIrtKRuDPI/AAAAAAAAQfY/pYMexHW1HqY/s1600/Icon_small.png"/><span       class="label">Share</span></a> 
-    </div> 
-  </div>
 <!-- WHATSAPP --> 
   <div id="MBTshares"> 
     <div class="mbt-o"> 
       <a class="mbt-tw whatsapp" href="whatsapp://send?text='.get_the_title( $post->ID).' >> '.get_permalink( $post->ID).'"  rel="nofollow" target="_blank" title="Share on whatsapp!"><i class="fa fa-whatsapp"></i>      <span class="label">SMS</span></a> 
     </div> 
   </div> 
-  <!-- PRINT --> 
-  <div id="MBTshares"> 
-    <div class="mbt-o"> 
-      <a class="mbt-tw printme" href="javascript:window.print()" rel="nofollow" target="_blank" title="Print this page!"> 
-      <i class="fa fa-print"></i><span class="label">Print</span></a> 
-    </div> 
-  </div>
 </div> <!--switchoff-->
 <span class="mbtswitch2"><i class="active"></i></span> 
 </span> 
