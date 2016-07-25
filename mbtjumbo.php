@@ -31,6 +31,8 @@ function jumbo_share_posts_style()
 
 add_action("wp_enqueue_scripts", "jumbo_share_posts_style");
 
+
+
 //Jumbo Share Counters Plugin 
 function jumbo_shares_after_post($content){ 
 if (is_single()) {    
