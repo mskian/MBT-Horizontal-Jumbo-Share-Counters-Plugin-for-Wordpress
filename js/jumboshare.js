@@ -14,7 +14,7 @@ Source: https://github.com/bfintal/Counter-Up
 /*##########Plugin Settings#############*/ 
 $(document).ready(function() { 
 var shareUrl=$("link[rel=canonical]").attr("href"); 
-$.getJSON('http://share-counters.rhcloud.com/?url=' + encodeURIComponent(shareUrl) + "&callback=?",function(data){shares=data.shares;$(".count").each(function(index,el){service=$(el).parents(".share-btn").attr("data-service");count=shares[service];$(el).text(count)}); 
+$.getJSON('https://new-counters.rhcloud.com/?url=' + encodeURIComponent(shareUrl) + "&callback=?",function(data){shares=data.shares;$(".count").each(function(index,el){service=$(el).parents(".share-btn").attr("data-service");count=shares[service];$(el).text(count)}); 
 });
 /*#########Animation Settings###########*/ 
 $(window).load(function() { 
